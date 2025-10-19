@@ -26,6 +26,6 @@ jobs:
 
   create-tag-and-release:
     needs: check_tag_exists
-    if: ${{ (needs.check_tag_exists.outputs.tag_exists == 'false') && github.ref == 'refs/heads/master' }}
+    if: ${{ (needs.check_tag_exists.outputs.tag_exists == 'false') && github.ref == 'refs/heads/main' }}
     secrets: inherit
     uses: ./.github/workflows/part-release-tag.yaml
