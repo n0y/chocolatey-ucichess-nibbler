@@ -9,7 +9,7 @@ jobs:
     uses: ./.github/workflows/part-package-and-test.yaml
 
   check_tag_exists:
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     needs: build
     steps:
