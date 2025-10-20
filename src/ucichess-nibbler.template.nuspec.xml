@@ -21,7 +21,9 @@
             an issue here.
         </description>
         <projectUrl>https://github.com/rooklift/nibbler</projectUrl>
+        <releaseNotes>https://github.com/rooklift/nibbler/releases</releaseNotes>
         <licenseUrl>https://github.com/rooklift/nibbler/blob/master/LICENSE.md/</licenseUrl>
+        <packageSourceUrl>https://github.com/n0y/chocolatey-ucichess-nibbler</packageSourceUrl>
         <tags>uci chess</tags>
     </metadata>
     <files>
